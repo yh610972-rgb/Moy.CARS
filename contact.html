@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOY | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <a class="logo" href="index.html">♛ MOY</a>
+    <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="collections.html">Collections</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+<section class="page-title">
+    <p class="eyebrow">WE ARE HERE FOR YOU</p>
+    <h1>CONTACT <span>MOY</span></h1>
+    <p>Let's make every moment count.</p>
+</section>
+
+<main class="content-area">
+    <h2 class="gold" style="text-align:center;">Get In Touch</h2>
+
+    <form class="contact-form"
+          onsubmit="event.preventDefault(); alert('Thank you for contacting MOY!');">
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <input type="text" placeholder="Subject">
+
+        <textarea placeholder="Write Your Message..." required></textarea>
+
+        <button class="gold-btn" type="submit">Send Message →</button>
+    </form>
+</main>
+
+<footer>
+    <a class="logo" href="index.html">♛ MOY</a>
+    <p>© 2026 MOY.YASSIN Watches. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
